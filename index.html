@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0" />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+    <!-- Scripts -->
+    <script src="main.js" type="text/javascript" defer></script>
+
+    <title>PIEDRA, PAPEL O TIJERA</title>
+</head>
+<body>
+    <header>
+        <h2> !PIEDRA, PAPEL O TIJERA¡ </h2>
+        <h3> Batalla definitiva </h3>
+    </header>
+    <div id="start__container">
+        <button type="button" id="boton-start"> INICIAR </button>
+    </div>
+
+    <div id="elegir__ataque">
+        <label> Elige tu ataque </label>
+        <select id="ataque__elegido">
+            <option value="PIEDRA"> PIEDRA </option>
+            <option value="PAPEL"> PAPEL </option>
+            <option value="TIJERA"> TIJERA </option>
+        </select>
+        <button type="button" id="aceptar"> Aceptar </button>
+    </div>
+
+    <div id="resultado">
+        <div id="jugador"></div>
+        <div id="maquina"></div>
+    </div>
+
+    <div id="ganador"></div>
+    <div id="partida"></div>
+    <div id="textoFinal"></div>
+</body>
+</html>
